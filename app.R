@@ -137,6 +137,11 @@ ui <- fluidPage(
   # Map
   div(class = "map-container",
       leafletOutput("county_map", height = "600px")
+  ),
+  
+  # Footer
+  div(style = "text-align: left; padding: 20px; color: #2c3e50; font-size: 14px; margin-top: 20px;",
+      "Map by Mariia Novoselia, Missouri School of Journalism"
   )
 )
 
